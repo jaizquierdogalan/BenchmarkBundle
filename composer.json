@@ -1,10 +1,10 @@
 {
-    "name": " izquierdogalan/benchmark-bundle",
+    "name": "izquierdogalan/benchmark-bundle",
     "type": "symfony-bundle",
     "description": "Show benchmark functions, apis, controlers, etc",
     "keywords": ["benchmark", "api", "monitorization"],
     "homepage": "https://github.com/izquierdogalan/BenchmarkBundle",
-    "license": "Apache2",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jonathan Izquierdo Galán",
