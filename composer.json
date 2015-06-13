@@ -24,10 +24,6 @@
     },
     "autoload": {
         "psr-0": { "Easys\\BenchmarkBundle": "" }
-    },
-    "minimum-stability": "dev",
-    "target-dir": "Easys/BenchmarkBundle",
-    "extra": {
-
     }
+
 }
