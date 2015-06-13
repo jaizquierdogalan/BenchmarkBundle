@@ -1,5 +1,5 @@
 {
-    "name": "easys/benchmark-bundle",
+    "name": " izquierdogalan/benchmark-bundle",
     "type": "symfony-bundle",
     "description": "Show benchmark functions, apis, controlers, etc",
     "keywords": ["benchmark", "api", "monitorization"],
