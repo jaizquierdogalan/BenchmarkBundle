@@ -28,8 +28,5 @@
     "minimum-stability": "dev",
     "target-dir": "easys/BenchmarkBundle",
     "extra": {
-        "branch-alias": {
-            "dev-master": "master"
-        }
     }
 }
