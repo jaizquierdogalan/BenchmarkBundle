@@ -1,0 +1,11 @@
+services:
+
+    benchmark_pointcut:
+        class: Easys\BenchmarkBundle\Aop\BenchmarkPointcut
+        arguments: [@annotation_reader]
+        tags:
+            - { name: jms_aop.pointcut, interceptor: benchmark_interceptor }
+
+    benchmark_interceptor:
+        class: Easys\BenchmarkBundle\Aop\BenchmarkInterceptor
+        arguments: [@annotation_reader, @logger ]

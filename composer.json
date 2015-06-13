@@ -1,0 +1,35 @@
+{
+    "name": "easys/BenchmarkBundle",
+    "type": "symfony-bundle",
+    "description": "Show benchmark functions, apis, controlers, etc",
+    "keywords": ["benchmark", "api", "monitorization"],
+    "homepage": "https://github.com/izquierdogalan/BenchmarkBundle",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Jonathan Izquierdo Galán",
+            "email": "ja.izquierdo.galan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "devster/ubench": "dev-master",
+        "jms/aop-bundle": "^1.0",
+        "symfony/framework-bundle": "~2.1"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+
+    },
+    "autoload": {
+        "psr-0": { "easys\\BenchmarkBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "easys/BenchmarkBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
