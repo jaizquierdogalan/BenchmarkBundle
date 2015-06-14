@@ -8,7 +8,7 @@ This Bundle provides @Benchmark annotation for symfony 2 for show log with a dur
 
 ### Get the bundle
 
-Add to your `/deps` file :
+Add to your `composer.json` file :
 
 ```
 composer require izquierdogalan/benchmark-bundle
