@@ -1,4 +1,4 @@
-# Intro to Becnhmark
+# Intro to BenchmarkBundle
 
 This Bundle provides @Benchmark annotation for symfony 2 for show log with a duration time process a determinated function or controler.
 
