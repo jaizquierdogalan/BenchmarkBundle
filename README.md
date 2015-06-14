@@ -1,6 +1,7 @@
 # Intro to BenchmarkBundle
 
 This Bundle provides @Benchmark annotation for symfony 2 for show log with a duration time process a determinated function or controler.
+This bundle required JMSAopBundle.
 
 [![Build Status](https://api.travis-ci.org/izquierdogalan/BenchmarkBundle.png?branch=master)](http://travis-ci.org/izquierdogalan/BenchmarkBundle)
 
@@ -24,12 +25,17 @@ composer require izquierdogalan/benchmark-bundle
     {
         return array(
             // ...
+            new JMS\AopBundle\JMSAopBundle(),
             new Easys\BenchmarkBundle\EasysBenchmarkBundle(),
             // ...
         );
     }
 ```
+## Add in your config.yml
 
+jms_aop:
+    cache_dir: %kernel.cache_dir%/jms_aop
+    
 ## Usage examples:
 
 You must use in controller or simple function allowed in methods:
