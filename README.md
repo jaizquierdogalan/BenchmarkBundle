@@ -32,10 +32,10 @@ composer require izquierdogalan/benchmark-bundle
     }
 ```
 ## Add in your config.yml
-
+```
 jms_aop:
     cache_dir: %kernel.cache_dir%/jms_aop
-    
+```
 ## Usage examples:
 
 You must use in controller or simple function allowed in methods:
