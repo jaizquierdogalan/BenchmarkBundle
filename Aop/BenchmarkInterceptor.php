@@ -5,7 +5,6 @@ use CG\Proxy\MethodInterceptorInterface;
 use CG\Proxy\MethodInvocation;
 use Doctrine\Common\Annotations\CachedReader;
 use Symfony\Bridge\Monolog\Logger;
-use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 
 
 class BenchmarkInterceptor implements MethodInterceptorInterface
