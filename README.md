@@ -47,7 +47,6 @@ You must use in controller or simple function allowed in methods:
 /**
    * @Route("/{page}", name="home", defaults={"page": 1}, requirements={"page": "\d+" }, methods = { "GET" })
    * @Benchmark(description="Load index page.")
-   * @Test()
    */
   public function indexAction($page)
   {
