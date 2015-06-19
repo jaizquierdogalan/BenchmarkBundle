@@ -4,6 +4,7 @@ This Bundle provides @Benchmark annotation for symfony 2 for show log with a dur
 This bundle required JMSAopBundle.
 
 [![Build Status](https://api.travis-ci.org/izquierdogalan/BenchmarkBundle.png?branch=master)](http://travis-ci.org/izquierdogalan/BenchmarkBundle)
+<img src="https://insight.sensiolabs.com/projects/3c117b47-d72e-4ded-971b-df843c699d94/big.png" style="margin-top: 1em">
 
 ## Installation and configuration:
 
